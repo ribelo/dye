@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps  {com.taoensso/encore {:mvn/version "3.18.0"}
+         reagent/reagent     {:mvn/version "1.0.0" :exclusions [cljsjs/react cljsjs/react-dom]}
+         meander/epsilon     {:mvn/version "0.0.626"}
+         cljs-bean/cljs-bean {:mvn/version "1.6.0"}}}
